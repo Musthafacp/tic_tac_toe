@@ -74,9 +74,9 @@ body{
     }
     .about-div{
         font-family: sans-serif;
-        margin: 4%;
-        height: 585px;
-        background-color: #ffffff;
+        margin: 3%;
+        height: 170vw;
+        background-color: #C70039;
         background-size: cover;
         text-align: left;
     
@@ -102,12 +102,21 @@ body{
         font-size: 1em;
         font-weight: bold;
         position: fixed;
-        left: 68%;
-        bottom: 10%;
+        left: 67%;
+        bottom: 2.7%;
     }
 }
 
 @media all and (max-width: 321px){
+    .about-div{
+        font-family: sans-serif;
+        margin: 1%;
+        height: 600px;
+        background-color: #C70039;
+        background-size: cover;
+        text-align: left;
+    
+    }
     .about-back-button{
         width: 80px;
         text-align: center;
@@ -129,6 +138,56 @@ body{
         text-align: left;
         line-height: 200%;
         font-size: 1em;
+        overflow: auto;
+        padding-left: 10px;
+    }
+}
+
+
+@media all and (max-width: 456px){
+    .about-back-button{
+        width: 80px;
+        text-align: center;
+        height: 35px;
+        width: 80px;
+        background-color: black;
+        color: white;
+        font-size: 1em;
+        font-weight: bold;
+        position: fixed;
+        left: 68%;
+        bottom: 2%;
+    }
+}
+@media all and (min-width:1439px){
+    .about-div{
+        font-family: sans-serif;
+        margin: 1%;
+        height: 70vw;
+        background-color: #C70039;
+        background-size: cover;
+        text-align: left;
+    
+    }
+    .about-back-button{
+        width: 120px;
+        text-align: center;
+        height: 45px;
+        background-color: black;
+        color: white;
+        font-size: 1.2em;
+        font-weight: bold;
+        position: fixed;
+        left: 83%;
+        bottom: 15%;
+    }
+    .para-div{
+        background-color: white;
+        margin: 2% 4% 4% 4%;
+        height: 800px;
+        text-align: left;
+        line-height: 200%;
+        font-size: 1.5em;
         overflow: auto;
         padding-left: 10px;
     }
