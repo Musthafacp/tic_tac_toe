@@ -1,0 +1,135 @@
+
+body{
+    background-color: white;
+    overflow: hidden;
+    color: white;
+    background-color: #ffffff;
+}
+
+.about-div{
+    font-family: sans-serif;
+    margin: 4%;
+    height: 610px;
+    background-color: #C70039;
+    background-size: cover;
+    text-align: left;
+    color: black;
+}
+
+.para-div{
+    background-color: white;
+    margin: 2% 4% 4% 4%;
+    text-align: left;
+    line-height: 200%;
+    font-size: 1.2em;
+    height: 450px;
+    overflow: auto;
+    padding-left: 20px;
+}
+
+.para-div p{
+    overflow: hidden;
+    scrollbar-gutter: stable both-edges; 
+}
+
+.about-head{
+    padding-left: 4%;
+    padding-top: 2%;
+    font-size: 3em;
+    color: white;
+}
+
+.languages-used{
+    padding-left: 4%;
+}
+
+.about-back-button{
+    width: 10%;
+    height: 7%;
+    background-color: #C70039;
+    color: rgb(255, 255, 255);
+    font-size: 1.2em;
+    border: 0px black solid;
+    font-weight: bold;
+    position: fixed;
+    left: 79%;
+    bottom: 20%;
+}
+.about-back-button:hover{
+    /* background-color: rgb(255, 255, 255); */
+    box-shadow: 2px 3px 2px black;
+    color: #ffffff;
+    transition: background-color 0.3s, color 0.3s , box-shadow 0.3s;
+}
+
+.para-headings{
+    font-size: 1.3em;
+}
+
+@media all and (max-width: 376px){
+    .about-head{
+        padding-left: 4%;
+        padding-top: 3%;
+        font-size: 3em;
+    }
+    .about-div{
+        font-family: sans-serif;
+        margin: 4%;
+        height: 585px;
+        background-color: #ffffff;
+        background-size: cover;
+        text-align: left;
+    
+    }
+    .para-div{
+        background-color: white;
+        margin: 2% 4% 4% 4%;
+        text-align: left;
+        line-height: 200%;
+        font-size: 1em;
+        overflow: auto;
+        padding-left: 10px;
+    }
+    .para-headings{
+        font-size: 1.1em;
+    }
+    .about-back-button{
+        width: 80px;
+        text-align: center;
+        height: 35px;
+        background-color: black;
+        color: white;
+        font-size: 1em;
+        font-weight: bold;
+        position: fixed;
+        left: 68%;
+        bottom: 10%;
+    }
+}
+
+@media all and (max-width: 321px){
+    .about-back-button{
+        width: 80px;
+        text-align: center;
+        height: 35px;
+        width: 80px;
+        background-color: black;
+        color: white;
+        font-size: 1em;
+        font-weight: bold;
+        position: fixed;
+        left: 63%;
+        bottom: 10%;
+    }
+    .para-div{
+        background-color: white;
+        margin: 2% 4% 4% 4%;
+        /* width: 700px; */
+        height: 400px;
+        text-align: left;
+        line-height: 200%;
+        font-size: 1em;
+        overflow: auto;
+        padding-left: 10px;
+    }
+}
