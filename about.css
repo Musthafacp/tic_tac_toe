@@ -159,7 +159,7 @@ body{
         bottom: 2%;
     }
 }
-@media all and (min-width:1439px){
+@media all and (max-width:1439px){
     .about-div{
         font-family: sans-serif;
         margin: 1%;
